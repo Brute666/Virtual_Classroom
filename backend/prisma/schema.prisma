@@ -16,41 +16,5 @@ model User {
   password String
 }
 
-model Course {
-  id          Int    @id @default(autoincrement())
-  code        String @unique
-  name        String @unique
-  description String
-}
 
-model AddedCourse {
-  id         Int    @id @default(autoincrement())
-  email      String
-  courseName String
-}
 
-model Materials {
-  id        Int    @id @default(autoincrement())
-  courseID  String
-  materials String
-}
-
-model Exam {
-  id          Int    @id @default(autoincrement())
-  courseID    String
-  description String
-  question1   String
-  question2   String
-  question3   String
-}
-
-model Assignment {
-  id             Int    @id @default(autoincrement())
-  assignmentName String
-}
-
-model Grades {
-  id    Int    @id @default(autoincrement())
-  email String
-  grade String
-}
