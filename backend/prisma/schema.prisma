@@ -29,28 +29,4 @@ model AddedCourse {
   courseName String
 }
 
-model Materials {
-  id        Int    @id @default(autoincrement())
-  courseID  String
-  materials String
-}
 
-model Exam {
-  id          Int    @id @default(autoincrement())
-  courseID    String
-  description String
-  question1   String
-  question2   String
-  question3   String
-}
-
-model Assignment {
-  id             Int    @id @default(autoincrement())
-  assignmentName String
-}
-
-model Grades {
-  id    Int    @id @default(autoincrement())
-  email String
-  grade String
-}
