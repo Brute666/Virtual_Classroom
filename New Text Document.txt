@@ -1,0 +1,13 @@
+to run backend server :
+go to backend folder.
+open terminal.
+if it is first time , run "npm install"
+then run "npm run dev"
+
+to run frontend code :
+go to virtual-classroom folder.
+if it is first time , run "npm install".
+then run "npm run dev"
+
+For both folder if it not first time run.just run "npm run dev"
+
